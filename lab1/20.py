@@ -1,0 +1,6 @@
+x=int("29")
+y=float(2)
+z=int(2.7)
+w=float("2")
+q=str(2)
+print(x,y,z,w,q)
