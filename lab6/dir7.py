@@ -4,10 +4,10 @@ path = input()
 
 try:
     os.chdir(path)
-    txt1 = input()
+    f1 = input()
     path2 = input()
-    txt2 = input()
-    with open(txt1,'r') as input, open(path2 + '/' + txt2, 'a') as output:
+    f2 = input()
+    with open(f1,'r') as input, open(path2 + '/' + f2, 'a') as output:
         for line in input:
             output.write(line)
 except:

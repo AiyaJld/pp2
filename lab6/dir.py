@@ -7,6 +7,6 @@ os.chdir(path)
 dirs = os.listdir(os.getcwd())
 for i in dirs:
     if os.path.isdir(i):
-        print(f'<DIR> {i}')
+        print('<DIR> '+ i)
     elif os.path.isfile(i):
-        print(f'<FILE> {i}')
+        print('<FILE> '+i)
